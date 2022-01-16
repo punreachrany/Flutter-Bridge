@@ -21,7 +21,7 @@ class MainActivity: FlutterActivity() {
             // Note: this method is invoked on the main thread.
             // TODO
             if(call.method == "getBatteryPercentage") {
-                result.success(10)
+                result.success("10 Android")
             } else {
                 result.error("424","Please check", "Wrong Implementation")
             }
